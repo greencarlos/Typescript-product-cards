@@ -1,0 +1,17 @@
+.product-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2rem;
+	padding: 2rem;
+}
+
+.product-card {
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid black;
+}
+
+.product-card img {
+	width: 150px;
+}
